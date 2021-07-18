@@ -1,6 +1,6 @@
 {
   "name": "blogtraversy",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A package that helps you to fetch all the blogs from Medium and Hashnode",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
