@@ -12,8 +12,8 @@ export const getBlogs=async(type:'medium'|'hashnode'|'all', username:UsernameCon
     }
     else
     {   
-        const mediumArticles= await Medium(username.mediumUsername);
-        const hashnodePosts = await Hashnode(username.hashnodeUsername);
+        const [mediumArticles, hashnodePosts] = await Promise.all([Medium(username.mediumUsername), Hashnode(username.hashnodeUsername)]);
+    
         return {
             mediumArticles: mediumArticles,
             hashnodePosts: hashnodePosts
