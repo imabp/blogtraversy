@@ -22,4 +22,4 @@ const getBlogs=async(type:'medium'|'hashnode'|'all', username:UsernameConfig)=>{
     }
 };
 
-module.exports=getBlogs;
+export {getBlogs};
