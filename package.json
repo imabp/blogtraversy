@@ -1,9 +1,13 @@
 {
   "name": "blogtraversy",
   "version": "3.1.0",
-  "description": "",
+  "description": "A package that helps you to fetch all the blogs from Medium and Hashnode",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imabp/blogtraversy.git"
+  },
   "files": [
     "lib"
   ],
@@ -11,8 +15,13 @@
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["blogs","hashnode","medium"],
+  "author": {
+    "name":"Abir Pal",
+    "email": "abir.pal899@gmail.com",
+    "url": "https://github.com/imabp"
+  },
+
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
