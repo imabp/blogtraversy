@@ -6,7 +6,7 @@ const axios = require("axios");
 
 const getMediumArticles = async (username:string):Promise<BlogPostConfig> => {
     const URI =
-        `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${username}`;
+        `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`;
     try {
         const response = await axios.get(URI);
         return response.data.items.map((article:any):BlogPostConfig => {
