@@ -81,3 +81,6 @@ res =[
         }
 ]
 ```
+
+## Contribution
+For contributions, please go through active [issues](https://github.com/imabp/blogtraversy/issues) 
