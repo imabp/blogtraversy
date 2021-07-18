@@ -22,4 +22,5 @@ const getBlogs=async(type:'medium'|'hashnode'|'all', username:UsernameConfig)=>{
     }
 };
 
+export * from './types'
 export default getBlogs;
