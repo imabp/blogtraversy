@@ -49,15 +49,15 @@ getBlogs('hashnode',usernames).then((res)=>console.log("Hashnode Blogs",res));
 res= {
     mediumArticles:[
         {
-            url: string
-            title: string
+            url: string,
+            title: string,
             thumbnail: string
         }
     ],
     hashnodePosts:[
         {
-            url: string
-            title: string
+            url: string,
+            title: string,
             thumbnail: string
         }  
     ]
@@ -66,8 +66,8 @@ res= {
 //getBlogs('medium',usernames) 
 res =[  
         {
-            url: string
-            title: string
+            url: string,
+            title: string,
             thumbnail: string
         }
 ]
@@ -75,8 +75,8 @@ res =[
 //getBlogs('hashnode',usernames) 
 res =[  
         {
-            url: string
-            title: string
+            url: string,
+            title: string,
             thumbnail: string
         }
 ]
