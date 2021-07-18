@@ -1,5 +1,5 @@
 <p align="center">
-<img height="150" width="150" src ="https://media.discordapp.net/attachments/834130556865347645/866304649622847498/Frame_41.png"
+<img height="150" width="150" src ="https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png"
 /><br/><br/>
 <b>Blog Traversy</b><br/>
 A tool which helps you to fetch your articles from all the publications like medium and hashnode and show it on your custom blog.
