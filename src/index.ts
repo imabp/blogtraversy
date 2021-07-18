@@ -1,7 +1,7 @@
 import { Hashnode, Medium } from "./blogs";
 import { UsernameConfig } from "./types/UserNameConfig";
 
-const getBlogs=async(type:'medium'|'hashnode'|'all', username:UsernameConfig)=>{
+async function getBlogs(type:'medium'|'hashnode'|'all', username:UsernameConfig) {
     if(type=="medium")
     {
         return Medium(username.mediumUsername );
@@ -22,4 +22,4 @@ const getBlogs=async(type:'medium'|'hashnode'|'all', username:UsernameConfig)=>{
     }
 };
 
-export {getBlogs};
+module.exports=getBlogs;
