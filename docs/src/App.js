@@ -21,12 +21,12 @@ const App = () => {
       {" "}
       <Container style={{ marginTop: "20px", marginBottom: "20px" }}>
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <div style={{padding:'20px'}}>
+          <div style={{ padding: "20px" }}>
             <a href="https://github.com/imabp/blogtraversy">
-            <img
-              height="100"
-              width="100"
-              src="https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png"
+              <img
+                height="100"
+                width="100"
+                src="https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png"
               />
             </a>
           </div>
@@ -69,6 +69,11 @@ const App = () => {
             <Nav.Item>
               <Nav.Link href="https://www.npmjs.com/package/blogtraversy">
                 View Docs
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="https://github.com/imabp/blogtraversy">
+                Contribute
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -44,10 +44,9 @@ const Examples = () => {
 
   return (
     <>
-      <Row>
+      <Row style={{ background:'#98fb98', padding:'20px', borderRadius:'10px'}}>
         <h5> 🎉 New Feature: Better Error Handling </h5>
-        <p>
-          {" "}
+        <p>          
           If any username doesnt exists, the following data will be received, with custom the thumbnail.
         </p>
         <br />
