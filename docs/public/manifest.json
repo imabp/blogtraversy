@@ -1,0 +1,26 @@
+{
+    "short_name": "npm i blogtraversy",
+    "name": "Blog Traversy Docs",
+    "description":"Fetches your blog, from all the sources, at one place. Easy to integrate with your portfolio.",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
