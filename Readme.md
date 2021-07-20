@@ -2,7 +2,11 @@
 <img height="150" width="150" src ="https://media.discordapp.net/attachments/834130556865347645/866319407055634452/Frame_42.png"
 /><br/><br/>
 <b>Blog Traversy</b><br/>
+    <a href="https://blogtraversy.netlify.app/">Try it out LIVE!</a> | <a href="https://github.com/imabp/blogtraversy/issues">Active Issues</a> | 
+    <a href="https://github.com/imabp/blogtraversy/issues/new">Issue Report</a>    
+<br/>
 A tool which helps you to fetch your articles from all the publications like medium and hashnode and show it on your custom blog.
+    
 </p>
 
 ## Getting Started
