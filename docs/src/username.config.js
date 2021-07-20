@@ -1,5 +1,6 @@
 const usernames = {
-  mediumUsername: "abirwrite",
+  mediumUsername: "abirwrites",
   hashnodeUsername: "imabp",
 };
 export default usernames;
+

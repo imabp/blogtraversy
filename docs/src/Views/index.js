@@ -1,2 +1,4 @@
 import Custom from './custom';
-export { Custom };
+import Examples from './Example';
+import IntegrationGuide  from './IntegrationGuide';
+export { Custom, Examples, IntegrationGuide };
