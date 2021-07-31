@@ -6,8 +6,14 @@
     <a href="https://github.com/imabp/blogtraversy/issues/new">Issue Report</a>    
 <br/>
 A tool which helps you to fetch your articles from all the publications like medium and hashnode and show it on your custom blog.
+    <br/>  <br/>
+
+<br/>  
+    <a target="_blank" href="https://twitter.com/imabptweets/status/1421477678788464641"><img src ="https://user-images.githubusercontent.com/53480076/127743172-5363089e-54e8-4af5-8698-9d4f7cc25f68.png" height="300px"/></a>
+
     
 </p>
+
 
 ## Getting Started
 
